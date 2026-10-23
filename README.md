@@ -35,7 +35,7 @@ No external API is required, so no API keys are needed. Never commit keys or rea
 ## Run it
 
 ```bash
-git clone <your-repo-url>
+   git clone https://github.com/thomaspogorelc-svg/fraud-monitor
 cd fraud-monitor
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -76,13 +76,11 @@ default threshold, so the weights were retuned. All outputs should be reviewed a
 
 ## Screenshots
 
-Add at least two screenshots of the running app in `screenshots/` (for example the **Patterns** tab and the
-**Flagged transactions** tab) and reference them here:
+Live app: https://fraud-monitor-e2fufvba2jvzmwqbt6qbeh.streamlit.app
 
-```
-![Patterns](screenshots/patterns.png)
-![Flagged transactions](screenshots/flagged.png)
-```
+![Patterns tab](screenshots/patterns.png)
+
+![Flagged transactions tab](screenshots/flagged.png)
 
 ## Project layout
 
